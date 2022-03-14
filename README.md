@@ -1,7 +1,7 @@
 # Eccomerce-API 
-this API impliments the CRUD for product inventory. It stores name and quantity of the product. it can create, delete, update and delete the product. [Video](youtube.com/wizzenalum) to show demo and setup.
+this API impliments the CRUD for product inventory. It stores name and quantity of the product. it can create, delete, update and delete the product. 
 ## How to setup on local machine
-To use this repository your machine should have [node](https://nodejs.org/en/), npm, [monogodb](https://docs.mongodb.com/manual/installation/) and [git](https://git-scm.com/downloads). 
+
 1. check pre-requisits by these.
 ```go
 node --version
@@ -10,7 +10,7 @@ git --version
 ```
 2. Now clone this repository
 ```go
-git clone https://github.com/wizzenalum/Ecommerce-API.git
+git clone https://github.com/Saurabhsingh5800/e-commerce-api.git
 ```
 3. Change directory to Ecomerce-API
 ```go
@@ -29,7 +29,7 @@ sudo systemctl start mongod
 ```go
 npm start
 ```
-6. click [here](http://localhost:8000) or link in terminal to access your application.
+6. click [here](http://localhost:4000) or link in terminal to access your application.
 
 ## How to test this api using vs-code
 1. i assume your system has vs-code and rest-client preinstalled
